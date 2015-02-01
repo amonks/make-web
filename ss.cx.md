@@ -13,8 +13,6 @@
 
 set root password using ramnode's admin interface
 
-    rp: sQu6AkG8UfhLqD
-
 
 ## user stuff
 
@@ -118,3 +116,17 @@ as follows:
 
         # error_page  404              /404.html;
     }
+
+## personal github on server
+
+    ssh-keygen -t rsa -C "a@monks.co"
+    cat ~/.ssh/horatio-ajm.pub
+
+then copy and paste into github admin interface
+
+    # start the ssh-agent in the background
+    eval "$(ssh-agent -s)"
+    # Agent pid 59566
+    ssh-add ~/.ssh/id_rsa
+
+from https://help.github.com/articles/generating-ssh-keys/#platform-linux

@@ -31,7 +31,7 @@ turn off root login
     edit to:
     PermitRootLogin no
 
-    Port 2222
+    Port 22
 
 ## Ssh Stuff
 
@@ -49,7 +49,7 @@ locally configure ssh to use the right key with the new host [from here](http://
 
 edit ~/.ssh/config
     Host horatio
-      Port 2222
+      Port 22
       HostName ss.cx
       User ajm
       IdentityFile ~/.ssh/horatio
@@ -66,7 +66,7 @@ see [reference](https://www.digitalocean.com/community/tutorials/additional-reco
 
     sudo apt-get install ufw
     sudo ufw allow 80/tcp
-    sudo ufw allow 2222/tcp
+    sudo ufw allow 22/tcp
     sudo ufw logging on
     sudo ufw enable
     sudo ufw status
@@ -130,3 +130,28 @@ then copy and paste into github admin interface
     ssh-add ~/.ssh/id_rsa
 
 from https://help.github.com/articles/generating-ssh-keys/#platform-linux
+
+## local mail
+
+    apt-get install postfix
+    apt-get install alpine
+
+## irc
+
+    apt-get install ngircd
+    nano /etc/ngircd/ngircd.conf
+
+no password
+port: 6667
+
+    apt-get install irssi
+    sudo ufw allow 6667/tcp
+
+
+## other installs
+
+    apt-get install tmux
+    apt-get install finger
+    apt-get install cowsay
+    apt-get install tree
+

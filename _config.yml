@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               'Making Internet'
 tagline:             'how 2 make web'
 description:         'good info 4 webmaking'
-url:                 http://ss.cx
+url:                 http://ss.cx/~ajm/make-web/
 baseurl:             /~ajm/make-web/
 paginate:            5
 

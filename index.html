@@ -19,6 +19,12 @@ title: Home
   {% endfor %}
 </div>
 
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% capture readme %}{% include_relative README.md %}{% endcapture %}
+  {{ readme | markdownify }}
+</div>
+
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>

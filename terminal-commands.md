@@ -1,3 +1,7 @@
+---
+title: terminal commands
+---
+
 # Starting out on the Terminal
 
 ## Basic Terminal Commands

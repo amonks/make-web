@@ -1,3 +1,7 @@
+---
+title: server setup
+---
+
  ss.cx initial setup notes
 
 `168.235.71.126` `ss.cx`

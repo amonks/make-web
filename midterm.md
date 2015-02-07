@@ -1,3 +1,7 @@
+---
+title: syllabus
+---
+
 # *Making Internet*, the book
 
 I'm making a book. The world needs a super entry level "how to make internet in 2015" guide that acknowledges things like databases and github and javascript and templating and ec2 but still doesn't assume familiarity with html/css. Books on that topic tend to be along the lines of "first u learn the 90s way then the 2001 way then the 2005 way cuz that's how I did it" or "Hot New Thing for experts on the previous hot new thing"

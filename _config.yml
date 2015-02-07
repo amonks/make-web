@@ -1,0 +1,13 @@
+markdown:	kramdown
+highlighter:	pygments
+
+permalink:	pretty
+
+title:		'Making Internet'
+tagline:	'How to make web'
+url:		http://ss.cx/~ajm
+baseurl:	/~ajm
+
+author:
+    name:	'Andrew Monks'
+    url:	https://monks.co

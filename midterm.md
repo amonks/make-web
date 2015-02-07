@@ -1,5 +1,6 @@
 ---
 title: syllabus
+layout: page
 ---
 
 # *Making Internet*, the book

@@ -82,14 +82,6 @@ see [reference](https://www.digitalocean.com/community/tutorials/additional-reco
 
     sudo apt-get install ntp
 
-<!-- ## swap
-
-    sudo fallocate -l 512M /swapfile
-    sudo chmod 600 /swapfile
-    sudo mkswap /swapfile
-    sudo swapon /swapfile
-    sudo sh -c 'echo "/swapfile none swap sw 0 0" >> /etc/fstab' -->
-
 ## nginx
 
     apt-get install ngnix

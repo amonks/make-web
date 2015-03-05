@@ -165,7 +165,7 @@ https://github.com/zolrath/wemux
 
 ## ruby
 
-    \curl -sSL https://get.rvm.io | sudo bash -s stable
+<!--     \curl -sSL https://get.rvm.io | sudo bash -s stable
 
     add to skel .bashrc:
 
@@ -177,10 +177,46 @@ add self (and other users) to rvm group: (from [here](http://unix.stackexchange.
 
 install ruby
 
-    rvm install 2.2.0
+    rvm install 2.2.0 -->
+
+nope actually let's use rbenv
+
+deps:
+
+    sudo apt-get install -y g++ gcc make libc6-dev patch openssl ca-certificates libreadline6 libreadline6-dev curl zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev autoconf libc6-dev libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev
+
+ruby-build
+
+    git clone git://github.com/sstephenson/ruby-build.git /tmp/ruby-build
+    cd /tmp/ruby/build
+    ./install.sh
+
+rbenv
+
+    set RBENV_ROOT /usr/local/rbenv
+    git clone git://github.com/sstephenson/rbenv.git $RBENV_ROOT
+
+edit /etc/profile.d/rbenv.sh:
+
+    export RBENV_ROOT=/usr/local/rbenv
+    export PATH="$RBENV_ROOT/bin:$PATH"
+    eval "$(rbenv init -)"
+
+edit /etc/profile.d/rbenv.fish
+
+    set -gx RBENV_ROOT /usr/local/rbenv
+    set -gx PATH $RBENV_ROOT/bin $PATH
+    . (rbenv init -|psub)
+
+edit fish profile:
+
+     set PATH /usr/local/bin /usr/bin /bin
+
+     # load rbenv
+     . /etc/profile.d/rbenv.fish
 
 ## node
 
-sudo su
-curl -sL https://deb.nodesource.com/setup | bash -
-apt-get install -y nodejs
+    sudo su
+    curl -sL https://deb.nodesource.com/setup | bash -
+    apt-get install -y nodejs

@@ -11,29 +11,53 @@ Over the course of 3-ish 4-ish-month-long units we'll learn all types of web
 
 And the course is taught in terminals to a shared debian  server so we'll sneak in some sysop learning as well.
 
-## Outline
+## outline
 
-* jekyll
+1. Quickstart: connecting and editing text
+    *   connecting.md
+        *   terminal commands.md
+        *   iphone.md
+        *   programs.md
+        *   tmux.md
+            *   wemux.md
+        *   mosh.md
+    *   editing.md
+        *   hello world
+2.  getting fancy
+    *   basic html document
+    *   download bootstrap
+    *   divs and stuff
+3.  css
+    *   aside: fonts on the internet
+        *   typekit // google fonts // webfonts
+        *   resources for finding websafe fonts
+        *   font families
+4.  project: make a single-serving website
+5.  modularity: jekyll
+    *   delegating to markdown
+    *   editing locally :: git.md
+        *   github pages
+        *   keys.md
+        *   github demo.md
+    *   ruby
+    *   yaml
+6.  project: make a personal website // portfolio
+7.  information systems / collecting data :: sinatra
+    *   heroku
+    *   ruby, rbenv, gems
 
-* gh-pages
+### projects
+*   [html] single serving website
+*   [jekyll] personal website
+*   [javascript] canvas
+    *   [three.js]?
+*   [sinatra]
+    *   [databases]
 
-* github
+### appendecies
 
-* heroku
-
-* ruby, rbenv, gems
-
-* html
-
-* css
-
-* haml, templating
-
-* grunt?
-
-* npm, bower
-
-* databases
+*   local
+*   make ur own
 
 ## Intro
 

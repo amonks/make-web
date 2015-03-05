@@ -17,7 +17,8 @@ send it over
 
 locally configure ssh to use the right key with the new host [from here](http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/)
 
-edit ~/.ssh/config
+edit ~/.ssh/config on the mac
+
     Host horatio
       Port 22
       HostName ss.cx

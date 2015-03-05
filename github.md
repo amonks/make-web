@@ -1,9 +1,7 @@
 ---
 name: Github
-layout: default
+layout: page
 ---
-
-# GitHub
 
 There are many viable ways of moving files between your computer and the server. We're going to use a program called `git`, because you'll have to learn it before too long anyway.
 

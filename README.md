@@ -33,10 +33,9 @@ This is not for you if:
         *   [iphone](iphone)
         *   [programs](programs)
         *   [tmux](tmux)
-            *   [wemux](wemux)
+        *   [wemux](wemux)
         *   [mosh](mosh)
     *   [editing](editing)
-        *   hello world
     *   [github](github)
     *   [editors](editors)
 2.  [Quick intro on how websites work](howitworks/)

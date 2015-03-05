@@ -11,6 +11,20 @@ Over the course of 3-ish 4-ish-month-long units we'll learn all types of web
 
 And the course is taught in terminals to a shared debian  server so we'll sneak in some sysop learning as well.
 
+
+## who is this for
+
+this for you if:
+
+*   you are completely new to making websites, and you want to learn properly, start-to-finish.
+*   you want to impress your friends with the #NextFacebook
+
+This is not for you if:
+
+*   you already know everything
+*   you need to make a website right now. This is not a tutorial. It will take time.
+*   you don't have access to a computer. If you have access to a computer, you have everything you need. You don't need any other resources. You don't need any money. Only time.
+
 ## outline
 
 1. Quickstart: connecting and editing text
@@ -23,6 +37,7 @@ And the course is taught in terminals to a shared debian  server so we'll sneak 
         *   mosh.md
     *   editing.md
         *   hello world
+    *   editing_locally.md
 2.  getting fancy
     *   basic html document
     *   download bootstrap
@@ -41,7 +56,7 @@ And the course is taught in terminals to a shared debian  server so we'll sneak 
         *   github demo.md
     *   ruby
     *   yaml
-6.  project: make a personal website // portfolio
+6.  project: make a personal website // portfolio // blog // something
 7.  information systems / collecting data :: sinatra
     *   heroku
     *   ruby, rbenv, gems
@@ -56,7 +71,12 @@ And the course is taught in terminals to a shared debian  server so we'll sneak 
 
 ### appendecies
 
-*   local
+*   local // setup ur mac
+    *   homebrew
+    *   brew cask
+    *   ruby
+    *   npm
+    *   whatever
 *   make ur own
 
 ## Intro

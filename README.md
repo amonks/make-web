@@ -28,16 +28,18 @@ This is not for you if:
 ## outline
 
 1. Quickstart: connecting and editing text
-    *   connecting.md
-        *   terminal commands.md
-        *   iphone.md
-        *   programs.md
-        *   tmux.md
-            *   wemux.md
-        *   mosh.md
-    *   editing.md
+    *   [connecting](connecting)
+        *   [terminal commands](terminal-commands)
+        *   [iphone](iphone)
+        *   [programs](programs)
+        *   [tmux](tmux)
+            *   [wemux](wemux)
+        *   [mosh](mosh)
+    *   [editing](editing)
         *   hello world
-    *   editing_locally.md
+    *   [github](github)
+    *   [editors](editors)
+2.  [Quick intro on how websites work](howitworks/)
 2.  getting fancy
     *   basic html document
     *   download bootstrap
@@ -69,7 +71,7 @@ This is not for you if:
 *   [sinatra]
     *   [databases]
 
-### appendecies
+### appendicies
 
 *   local // setup ur mac
     *   homebrew
@@ -96,73 +98,4 @@ In part three, we'll get real fancy and start making webapps. Yup. You heard me.
 In part four we'll up our JavaScript game, pull up our sleeves, and make some net art. We'll talk about 3d and animations and interactivity. We might even kick it old skool and generate some text.
 
 It'll be fun.
-
-## Part One: static
-
-This is *Part One*. We'll build a static website, and get familiar with a text editor, HTML, CSS, Twitter Bootstrap, the Terminal, and the website Github. This guide assumes you're on a Mac, and using Yosemite. It'll probably work in Mavericks, too.
-
-
-### Quick intro on how websites work.
-
-When your browser visits a web page, it gets an `HTML` file. In some cases, all the code that makes up the page is contained within that one file, but more often that `HTML` file will link to other things files like images, videos, scripts, or style sheets.
-
-One of the coolest things about the internet is that you can examine all of the source code that your web browser gets.
-
-### View Source
-
-Let's try it. If you're using Safari, you'll have to go into Preferences and enable `Show Develop menu in menu bar`, under `Advanced`.
-
-On any website, you can now open the Develop menu, and hit `Show Page Source` to open up the `HTML` code that your browser is rendering and displaying.
-
-### Editing
-
-
-
-### Text editor, basic setup
-
-The first step towards making a website is getting a programmer's text editor. I use [Sublime Text 3](http://www.sublimetext.com/3). I've also used and enjoyed [GitHub Atom](https://atom.io/), [TextMate](http://macromates.com/), [Panic Coda](https://panic.com/coda/), and [TextWrangler](http://www.barebones.com/products/textwrangler/). There are tons of great options available, and they all do fundamentally the same thing.
-
-### Opening a folder in Sublime Text.
-
-I'll put Sublime Text on my Dock.
-
-You'll need to make a folder to put your website into. I'm just putting mine on my Desktop, but anywhere is fine.
-
-Drag the folder onto the Sublime Text icon in your Dock.
-
-> protip: if Sublime Text is open, you can hold `command` and press `tab` to bring up a Sublime Text icon you can drag folders onto, even if it isn't in your Dock.
-
-
-
-
-
-
-
-
-
-* HTML
-
-* bootstrap
-
-* Terminal
-
-* Github
-
-## Part two: Jekyll
-
-* Fork Hyde
-
-* CSS
-
-* ruby
-
-* Gem
-
-* Rbenv
-
-* Home brew (fuck)
-
-## Part three: Sinatra
-
-## Part four: JavaScript
 

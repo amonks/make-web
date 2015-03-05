@@ -3,8 +3,6 @@ title: tmux
 layout: page
 ---
 
-# tmux / screen
-
 Sometimes it's helpful to have your commands keep running and your session preserved even if you disconnect from SSH. Other times it would be cool to have multiple terminal sessions active at once, perhaps to edit two files at once or to keep a program running while making changes somewhere else. Still other times, it would be nice to have multiple people look at the same terminal so you can work together.
 
 One way to accomplish all of these things is with programs like `tmux` or `screen`. They're called 'terminal multiplexers'. The `tmux` website explains:

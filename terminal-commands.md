@@ -3,11 +3,7 @@ layout: page
 title: terminal commands
 ---
 
-# Starting out on the Terminal
-
-## Basic Terminal Commands
-
-### `cd`
+## `cd`
 
 change directory (switch folders)
 
@@ -15,7 +11,7 @@ change directory (switch folders)
 
 * `cd ~/Desktop`
 
-### `ls`
+## `ls`
 
 list contents of current directory
 
@@ -25,6 +21,6 @@ list contents of current directory
 
 * `ls ~/Desktop` list the stuff on your desktop
 
-### `pwd`
+## `pwd`
 
 where am I? (print working directory)

@@ -3,8 +3,6 @@ layout: page
 title: programs
 ---
 
-# some programs on the server
-
 ## cowsay
 
 Cowsay is a classic (but mostly useless) utility for making a cow say stuff. Try running `cowsay Hi dude!`

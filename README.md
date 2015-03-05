@@ -30,12 +30,11 @@ This is not for you if:
 1. Quickstart: connecting and editing text
     *   [connecting](connecting)
         *   [terminal commands](terminal-commands)
-        *   [iphone](iphone)
         *   [programs](programs)
         *   [tmux](tmux)
         *   [wemux](wemux)
         *   [mosh](mosh)
-    *   [editing](editing)
+    *   [helloworld](helloworld)
     *   [github](github)
     *   [editors](editors)
 2.  [Quick intro on how websites work](howitworks/)

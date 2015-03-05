@@ -3,8 +3,6 @@ title: sharing terminals
 layout: page
 ---
 
-# sharing terminals with `wemux`
-
 I installed a utility called [wemux](https://github.com/zolrath/wemux) to facilitate sharing terminal sessions. There's a pretty good readme on their [github page](https://github.com/zolrath/wemux#host-commands)
 
 Here's a quick overview of how to use it.

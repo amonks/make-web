@@ -3,8 +3,6 @@ layout: page
 title: connecting
 ---
 
-# Connecting to the server
-
 To connect to the server, you'll need to use something called SSH—short for Secure Shell. SSH is a super old utility, a relic from when an institution might have had one or two computers that people would connect to and use from remote terminals. We use the same program today to connect to web servers that might physically be thousands of miles away in a data center. Ours is in New York.
 
 ## Getting an ssh terminal

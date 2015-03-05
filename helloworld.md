@@ -1,11 +1,9 @@
 ---
 layout: page
-title: editing
+title: hello world
 ---
 
-# Editing files on the server
-
-Let's try to edit a file on the server. First we'll try it out from right inside the terminal, then we'll talk about a couple other ways.
+Let's try to edit a file on the server.
 
 ## A good first website
 

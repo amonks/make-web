@@ -3,8 +3,6 @@ layout: page
 title: ssh keys
 ---
 
-# Connecting without a password
-
 ssh info from [digital ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
 
 generate an ssh key (~/.ssh/horatio)

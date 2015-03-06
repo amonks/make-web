@@ -1,5 +1,5 @@
 ---
-name: 'how websites work'
+title: 'how websites work'
 layout: default
 ---
 

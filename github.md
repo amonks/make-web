@@ -1,5 +1,5 @@
 ---
-name: Github
+title: Github
 layout: page
 ---
 
